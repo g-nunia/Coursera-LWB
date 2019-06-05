@@ -4,7 +4,7 @@ all: README.md
 
 README.md: guessinggame.sh
 	touch README.md
-	echo "# guessinggame" > README.md
+	echo "Bash-Mak-Git-and-Github" > README.md
 	echo $$(date) >> README.md
 	cat guessinggame.sh | wc -l >> README.md
 clean:
