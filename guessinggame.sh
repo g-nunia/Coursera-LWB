@@ -18,7 +18,6 @@ function guessinggame () {
 			echo "response is smaller"
 		else
 			echo "perfect, goodjob!"
-		break;
 		fi
 	
 	done
