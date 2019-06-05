@@ -3,7 +3,6 @@
 
 
 
-
 function guessinggame () {
 	x=$(ls | wc -l)
 	while [[ $response -ne $x ]]
